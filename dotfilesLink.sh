@@ -1,7 +1,7 @@
-ln -sf ~/dotfiles/.vimrc ~/.vimrc
-ln -sf ~/dotfiles/.profile ~/.profile
-ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
-ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
-ln -sf ~/dotfiles/.zsh ~/.zsh
+ln -sf ~/dotfiles-do-ubuntu/.vimrc ~/.vimrc
+ln -sf ~/dotfiles-do-ubuntu/.profile ~/.profile
+ln -sf ~/dotfiles-do-ubuntu/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles-do-ubuntu/.zshrc ~/.zshrc
+ln -sf ~/dotfiles-do-ubuntu/.tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles-do-ubuntu/.zsh ~/.zsh
 
