@@ -1,6 +1,6 @@
 # install vim setting
-apt remove vim
-add-apt-repository ppa:jonathonf/vim
+apt remove -y vim
+add-apt-repository ppa:jonathonf/vim -y
 apt update
 
 apt install -y zsh tmux golang-1.10 vim
