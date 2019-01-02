@@ -1,6 +1,8 @@
 apt update
 apt install -y zsh tmux golang-1.10
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+
+git clone https://github.com/shuntaka9576/dotfiles-do-ubuntu.git ~/
 ~/dotfiles-do-ubuntu/dotfilesLink.sh
 source ~/dotfiles-do-ubuntu/.profile
 
