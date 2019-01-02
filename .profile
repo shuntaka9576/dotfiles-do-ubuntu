@@ -1,6 +1,7 @@
 export GOPATH=$HOME/go
 export PATH=~/go/bin:$PATH
 export PATH=$GOPATH/bin:$PATH
+export PATH=/usr/lib/go-1.10/bin:$PATH
 
 git config --global ghq.root $GOPATH/src
 git config --global user.name "shuntaka9576"
