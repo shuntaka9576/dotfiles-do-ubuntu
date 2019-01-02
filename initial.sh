@@ -1,4 +1,8 @@
 apt update
+# install vim
+
+
+
 apt install -y zsh tmux golang-1.10
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
@@ -15,3 +19,6 @@ sudo tar xzvf peco_linux_386.tar.gz
 cd peco_linux_386
 sudo chmod +x peco
 sudo cp peco /usr/local/bin
+
+# resource ghq peco settings
+source ~/dotfiles-do-ubuntu/.profile
