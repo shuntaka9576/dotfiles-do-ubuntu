@@ -1,9 +1,9 @@
+# install vim setting
+apt remove vim
+add-apt-repository ppa:jonathonf/vim
 apt update
-# install vim
 
-
-
-apt install -y zsh tmux golang-1.10
+apt install -y zsh tmux golang-1.10 vim
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
 git clone https://github.com/shuntaka9576/dotfiles-do-ubuntu.git ~/dotfiles-do-ubuntu
