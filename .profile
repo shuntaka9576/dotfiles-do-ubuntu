@@ -1,5 +1,5 @@
 export GOPATH=$HOME/go
-export PATH=/usr/local/lib/go/bin:$PATH
+export PATH=~/go/bin:$PATH
 export PATH=$GOPATH/bin:$PATH
 
 git config --global ghq.root $GOPATH/src
